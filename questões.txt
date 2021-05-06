@@ -1,0 +1,2 @@
+Sim, pois pode-se dividir o problema em 2 subproblemas (direita e baixo). A solução ótima da direita será confrontada com a de baixo e a maior será somada (combinada) com o peso da posição visitada atual.
+Esse valor encontrado pode ser armazenado em uma matriz extra para pesquisas futuras, pois outras jogadas podem precisar saber o valor da solução ótima de uma posição já calculada.
