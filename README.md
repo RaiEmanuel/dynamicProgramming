@@ -1,0 +1,2 @@
+# dynamicProgramming
+lista programação dinâmica.
