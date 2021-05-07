@@ -53,8 +53,16 @@ int main()
     long long int gain = result(0, heightMainTube);
     cout << gain << endl;
   
+    
+    
+
     delete [] valueTubes;
     delete [] heightTubes;
+    
+    for (int i = 0; i < nTubes; ++i){
+        delete [] memo[i];
+    }
+
     delete [] memo;
     return EXIT_SUCCESS;
 }
