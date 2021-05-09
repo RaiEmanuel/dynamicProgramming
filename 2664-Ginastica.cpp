@@ -46,7 +46,7 @@ int main()
         for (int j = 0; j < qtLevel; ++j)
         {
             memo[i][j] = -1;
-            if(i == t - 1) memo[i][j] = 1;
+            //if(i == t - 1) memo[i][j] = 1;
         }
     }
 
